@@ -1,4 +1,5 @@
 import os
+from .settings_local import *
 """
 Django settings for YokohamaTripDiagonosis project.
 
@@ -21,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-n3r*bra7ho_%%_yq$&5z0jysl6^xbd$z-!15g!b!*q)tu7z7hh'
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
