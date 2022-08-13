@@ -1,0 +1,13 @@
+h1 span{
+    color: red;
+    font-weight: bold;
+    font-size: 60px;
+}
+h1 p{
+    position:absolute;
+    left:45%;
+}
+#margin{
+    margin:120px
+}
+
